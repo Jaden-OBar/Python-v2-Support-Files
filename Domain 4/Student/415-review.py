@@ -1,4 +1,4 @@
-
+"""States the players position and in what game life the player is on"""
 
 
 game_state = True
@@ -9,4 +9,5 @@ while game_lives <= 3:
     if game_state == True:
         game_lives +=1
 print("Thank you for playing.")
+print(__doc__)
 

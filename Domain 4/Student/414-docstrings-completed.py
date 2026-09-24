@@ -1,3 +1,5 @@
+"""This code shows items a player can obtain on each level in a game. Notice that the rock is not attainable on level 2."""
+
 
 
 items = ['Wand', 'Rock', 'Pogo Stick']
@@ -8,3 +10,6 @@ for level in levels:
             continue
         else:
             print(f"You can get a {item} at level {level}.")
+
+
+print(__doc__)
