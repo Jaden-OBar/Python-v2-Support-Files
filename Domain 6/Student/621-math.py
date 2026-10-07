@@ -3,15 +3,15 @@ import math
 x=3.33
 y=-12
 
-print(math.fabs(y))
+#print(math.fabs(y))
 
-#print(math.ceil(x))
+print(math.ceil(x))
 
-#print(math.floor(x))
+print(math.floor(x))
 
-#print(math.trunc(x))
+print(math.trunc(x))
 
-#print(math.trunc(y))
+print(math.trunc(y))
 
 #print(math.fmod(y,x))
 

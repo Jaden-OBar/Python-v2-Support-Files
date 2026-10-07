@@ -1,6 +1,6 @@
 import random
-number1 = int(input('Enter your first number '))
-number2 = int(input('Enter your second number '))
+number1 = int(input('Enter your first number'))
+number2 = int(input('Enter your second number'))
 
 def calculate(number1, number2):
     operand = random.randint(1,3)
